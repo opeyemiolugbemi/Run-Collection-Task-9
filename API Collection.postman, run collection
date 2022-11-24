@@ -1,0 +1,271 @@
+{
+	"id": "620630fa-175c-4b1d-b6e3-d90ba8011df1",
+	"name": "API Collection",
+	"timestamp": "2022-11-24T11:05:52.212Z",
+	"collection_id": "24212406-94225286-347c-4ed3-9fac-7f7e8f5f7f38",
+	"folder_id": 0,
+	"environment_id": "24212406-452db63f-8487-4893-8ae8-f36d9b7957cb",
+	"totalPass": 17,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "18cd014a-75b4-41e6-86a9-6a18aff4373b",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php//",
+			"time": 551,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"apiVersion should be 6.3.8.0": true,
+				"title should be Fusio": true,
+				"paymentCurrency should be EUR": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"apiVersion should be 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title should be Fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"paymentCurrency should be EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				551
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"apiVersion should be 6.3.8.0": true,
+					"title should be Fusio": true,
+					"paymentCurrency should be EUR": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "0fc53f60-f6fc-4a4d-9c50-3586f5b5f2d9",
+			"name": "Get Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 340,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that entry 0 id is 1": true,
+				"confirm that entry 3 id is 4": true,
+				"confirm that entry 0 name is The Rus": true,
+				"confirm that entry 3 name is The Rus": true,
+				"confirm that entry 1 name is Just as I Am": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that entry 0 id is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that entry 3 id is 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that entry 0 name is The Rus": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that entry 3 name is The Rus": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that entry 1 name is Just as I Am": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				340
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that entry 0 id is 1": true,
+					"confirm that entry 3 id is 4": true,
+					"confirm that entry 0 name is The Rus": true,
+					"confirm that entry 3 name is The Rus": true,
+					"confirm that entry 1 name is Just as I Am": true
+				}
+			]
+		},
+		{
+			"id": "cfbbfaa4-cfec-4e1d-aade-5214c7524ab9",
+			"name": "Place a book order",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 319,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				319
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "701674e2-8c87-4e4e-823f-a41a122c18e8",
+			"name": "Place a book order",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 283,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eacbae40-ec25-461e-967d-4bc736c1c4fd",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 269,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				269
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "c8aed06f-252d-4040-8cd1-cd07b0908db0",
+			"name": "Get an order",
+			"url": "https://simple-books-api.glitch.me/orders/7rtkyim-JfxugOIY8yG9C",
+			"time": 319,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				319
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b281154-9119-4cee-8ff5-ea213dd49f54",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/7rtkyim-JfxugOIY8yG9C",
+			"time": 885,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				885
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2966,
+	"collection": {
+		"requests": [
+			{
+				"id": "18cd014a-75b4-41e6-86a9-6a18aff4373b",
+				"method": "GET"
+			},
+			{
+				"id": "0fc53f60-f6fc-4a4d-9c50-3586f5b5f2d9",
+				"method": "GET"
+			},
+			{
+				"id": "cfbbfaa4-cfec-4e1d-aade-5214c7524ab9",
+				"method": "POST"
+			},
+			{
+				"id": "701674e2-8c87-4e4e-823f-a41a122c18e8",
+				"method": "POST"
+			},
+			{
+				"id": "eacbae40-ec25-461e-967d-4bc736c1c4fd",
+				"method": "GET"
+			},
+			{
+				"id": "c8aed06f-252d-4040-8cd1-cd07b0908db0",
+				"method": "GET"
+			},
+			{
+				"id": "7b281154-9119-4cee-8ff5-ea213dd49f54",
+				"method": "DELETE"
+			}
+		]
+	}
+}
